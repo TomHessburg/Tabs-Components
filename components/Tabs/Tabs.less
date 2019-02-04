@@ -19,6 +19,14 @@
   }
   .tabs-item-selected {
     display: block;
+    animation: FADETEXT 2s ease;
+  }
+
+  @keyframes FADETEXT{
+    0%{ opacity: 0 ;
+        color:white }
+    100%{ opacity: 1 ;
+          color:black }
   }
 
   .tabs-links {
